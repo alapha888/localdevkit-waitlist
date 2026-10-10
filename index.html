@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LocalDevKit (working name) — offline developer tools for AI-coding data tasks, nothing leaves your machine — validating demand before building</title>
+<meta name="description" content="A planned native macOS developer toolbox (Windows later as a separate native build): streaming viewer for very large JSON and log files, cURL conversion, local redaction of secrets in logs and tokens, and an LLM token counter. Fully offline. Not built yet — this page only collects waitlist registrations.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="LocalDevKit — offline developer tools for AI-coding data (in validation)">
+<meta property="og:description" content="Inspect huge JSON and log files, convert cURL, redact secrets before sharing, count tokens — all on your own machine, nothing uploaded. Register interest by email — no payment, no pre-order.">
+<meta property="og:url" content="https://alapha888.github.io/localdevkit-waitlist/">
+<link rel="canonical" href="https://alapha888.github.io/localdevkit-waitlist/">
+<style>
+  body{font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;max-width:720px;margin:0 auto;padding:32px 20px 64px;line-height:1.7;color:#1a1a1a;background:#fff}
+  h1{font-size:28px;line-height:1.35;margin:8px 0 12px}
+  h2{font-size:19px;margin:32px 0 8px}
+  .badge{display:inline-block;background:#eef4ff;color:#2456a6;border:1px solid #c9dbff;border-radius:999px;padding:2px 12px;font-size:13px}
+  .lead{font-size:17px;color:#333}
+  ul{padding-left:22px}
+  .card{border:1px solid #e3e3e3;border-radius:10px;padding:16px 18px;margin:14px 0;background:#fafafa}
+  .price{font-size:22px;font-weight:700}
+  .btn{display:inline-block;background:#2456a6;color:#fff;text-decoration:none;border-radius:8px;padding:10px 22px;font-weight:600;margin-top:8px}
+  .note{color:#666;font-size:14px}
+  footer{margin-top:48px;color:#888;font-size:13px;border-top:1px solid #eee;padding-top:14px}
+</style>
+</head>
+<body>
+<span class="badge">In validation · demand check before any code</span>
+<h1>Developer Tools for AI-Coding Data — Fully Offline, Nothing Uploaded</h1>
+<p class="lead">LocalDevKit is a planned native macOS toolbox for the data chores AI-assisted coding creates every day: a JSON response too large for your editor, a log you cannot paste into a web tool because it contains tokens and customer data, a cURL command to turn into code, a prompt whose token count you are guessing. Every tool would run locally on your machine — no upload, no account, no subscription. <strong>It is not built yet.</strong> This page exists to answer one question first: which of these tools, if any, are worth building?</p>
+
+<h2>Why this shape</h2>
+<ul>
+  <li>The category has real paid evidence: DevUtils, an offline Mac developer toolbox sold as a one-time purchase, was publicly reported by its author at about $5,500/month in late 2023. That proves the offline-toolbox model can sell, not that this specific tool set will.</li>
+  <li>Generic tools (JSON formatting, timestamps, Base64) are already covered well by free software. This idea only targets gaps free tools cover weakly: very large files, AI-coding data, and redaction before sharing.</li>
+  <li>Privacy is the product: logs, tokens, and prompts stay on your machine because there is no server to send them to.</li>
+</ul>
+
+<h2>Candidate tools (none of this exists yet — pick your top 3 when you register)</h2>
+<ul>
+  <li>Streaming viewer and search for very large JSON and log files (hundreds of MB, no full load into memory)</li>
+  <li>cURL ↔ code converter (Python, JavaScript, Go, and others)</li>
+  <li>Local redaction: find and mask API keys, JWTs, emails, and IPs in logs before you share them</li>
+  <li>LLM token counter and cost estimator for prompts and files, offline</li>
+  <li>JSON diff focused on API responses (what actually changed, not formatting noise)</li>
+  <li>JWT decoder and inspector, fully local</li>
+  <li>Timestamp / cron / regex helpers tuned for log work</li>
+  <li>Markdown / HTML cleanup for copied AI output</li>
+</ul>
+<p class="note">The first version, if built, would ship at most 8 tools. Registrations decide which ones — that is the point of the top-3 question in the registration email.</p>
+
+<h2>Who this is for</h2>
+<ul>
+  <li>Developers who work with AI coding tools daily and handle large JSON, logs, and prompts</li>
+  <li>Anyone who has hesitated before pasting a log into an online tool — that hesitation is the use case</li>
+  <li>If free online tools already cover your needs, you do not need this</li>
+</ul>
+
+<div class="card">
+  <div class="note">Indicative price (not a live price — nothing is for sale, no payment is taken)</div>
+  <div class="price">$19 one-time</div>
+  <p style="margin:6px 0 0">Registering is just sending one email — no payment, no pre-order, no commitment to buy. Please pick your top 3 tools from the list above and say what you use today: those answers decide both whether this gets built and what ships first.</p>
+  <a class="btn" href="mailto:alapha888@gmail.com?subject=%5BLocalDevKit%20Waitlist%5D&body=I%20want%20to%20be%20notified%20if%20LocalDevKit%20launches.%0AMy%20top%203%20tools%20(pick%20from%3A%20large%20JSON%2Flog%20viewer%2C%20cURL%20converter%2C%20log%20redaction%2C%20token%20counter%2C%20JSON%20diff%2C%20JWT%20inspector%2C%20timestamp%2Fcron%2Fregex%20helpers%2C%20Markdown%20cleanup)%3A%0AWhat%20I%20use%20today%20for%20these%20tasks%3A%0AMy%20system%20(macOS%2FWindows)%3A%0AWould%20I%20pay%2019%20USD%20one-time%3F%20(yes%2Fno%2Fdepends)%3A">Register interest (send an email)</a>
+  <p class="note">This app is not built yet. Development will only begin if 30 people join this waitlist by October 31, 2026; if that goal isn't met, the project will be dropped and every registrant notified by email. The price and threshold are test parameters for this validation, not market conclusions.</p>
+</div>
+
+<h2>Questions</h2>
+<p><strong>Can I use it now?</strong><br>No. Nothing has been built; this page is the whole thing.</p>
+<p><strong>Does registering mean I have to buy it?</strong><br>No. It only means "notify me if it launches". Decide when there is a real product to look at.</p>
+<p><strong>Why macOS first, and what about Windows?</strong><br>The clearest paid evidence in this category is a Mac tool, and each platform gets its own native build rather than a cross-platform shell. Registrations are split by system so a strong Windows showing can change the order; a Windows version sold directly would not need a store account.</p>
+<p><strong>Why not just use free tools?</strong><br>For most tasks, you should. This idea only survives if the large-file, AI-data, and redaction gaps are real for enough people — the waitlist is how that gets tested before any code is written.</p>
+
+<footer>LocalDevKit waitlist validation page · Contact only via the structured email button above · This page collects no other information</footer>
+</body>
+</html>
